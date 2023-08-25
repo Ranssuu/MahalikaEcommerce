@@ -1,0 +1,150 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    position:relative;
+    top:0;
+    left:0;
+    width:100%;
+    padding:50px;
+    background: #002165;
+    display:flex;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    z-index:100%;
+    justify-content: center;
+    
+}
+
+body {
+    height: 100vh;
+    width: 100%;   
+}
+
+img {
+ align-items: center;
+}
+
+
+h1.centered{
+color:#fff;
+text-align: center;
+}
+
+.font1{
+    font-family: 'Kk Dimple', sans-serif;
+    font-size:40px;
+}
+
+.font2{
+    font-family: 'Baybayin Doctrina', sans-serif;
+}
+footer{
+    position:absolute;
+    padding: 50px;
+    bottom: 0;
+    left:500px;
+    right: 500px;
+    background: #BD0B3B;
+    height: auto;
+    width: 50%;
+    padding-top: 40px;
+    color: #fff;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.custom-span {
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    color: black;
+   
+}
+
+.custom-cog-icon {
+    color: white;
+    position: absolute;
+    top: 50%;
+    right: 300px;
+    transform: translateY(-50%);
+}
+
+.boxicon {
+    display: flex;
+    align-items: center;
+ 
+   
+  }
+  
+ .boxicon .bi-cart4 {
+   
+    margin-left: 500px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+  }
+
+  .cart-text {
+    display: block;
+color:black;
+margin-left: 500px;
+  }
+
+  .boxicon a:not(.cart-icon) {
+    margin-right: 10px;
+  }
+
+  div p {
+    font-size: 30px;
+    right: 100px;
+    transform: translateX(-0%)
+  }
+  
+.image{
+    width: 48%;
+    text-align: center;
+    transform: translateX(30%);
+    display:flex;
+}
+
+.image i{
+    position:absolute;
+    color:yellow;
+    margin-top: 50px;
+    transform: translateX(200%);
+
+}
+
+.image .number{
+    position: absolute;
+    margin-top: 50px;
+    font-size: 12px;
+    transform: translateX(-520%);
+    color:#1D262D;
+}
+
+button{
+    position: absolute;
+    font-size: 15px;
+    transform:translateX(300%);
+    cursor:pointer;
+    display:inline-block;
+    padding:8px 13px;
+    margin-top: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
